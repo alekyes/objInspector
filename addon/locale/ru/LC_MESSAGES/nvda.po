@@ -1,0 +1,292 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: objInspector-1.3dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-14 02:07+0300\n"
+"PO-Revision-Date: 2021-08-14 02:09+0300\n"
+"Last-Translator: Alex Yeshanu <eshanuap@gmail.com>\n"
+"Language-Team: Alex Yeshanu <eshanuap@gmail.com>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ../../../globalPlugins/objInspector\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: __init__.py:42
+msgid "obj&Inspector"
+msgstr "obj&Inspector"
+
+#: __init__.py:43
+msgid "Manage favorites of objInspector"
+msgstr "Управление избранного objInspector"
+
+#: __init__.py:45
+msgid "Export favorites"
+msgstr "Экспортировать избранное"
+
+#: __init__.py:48
+msgid "Import favorites"
+msgstr "Импорт избранного"
+
+#: __init__.py:56
+msgid "Not available here"
+msgstr "Недоступно здесь"
+
+#: __init__.py:59 __init__.py:222
+msgid "Searching..."
+msgstr "Поиск..."
+
+#: __init__.py:67
+#, python-format
+msgid ""
+"Search failed\n"
+"%s %s"
+msgstr ""
+"Ошибка поиска\n"
+"%s %s"
+
+#: __init__.py:70
+#, python-format
+msgid "Objects in %s window"
+msgstr "Объекты в окне %s"
+
+#: __init__.py:71
+#, python-format
+msgid "%d items"
+msgstr "%d элементов"
+
+#: __init__.py:74
+msgid "Shows a list of objects in the active window"
+msgstr "Отображает список объектов в активном окне"
+
+#: __init__.py:111
+#, python-format
+msgid ""
+"Error loading favorites.dat file:\n"
+"\n"
+"%s\n"
+"%s"
+msgstr ""
+"Ошибка загрузки файла favorites.dat:\n"
+"\n"
+"%s\n"
+"%s"
+
+#: __init__.py:111
+msgid "Export failed"
+msgstr "Не удалось выполнить экспорт"
+
+#: __init__.py:114
+msgid "Select a file for copying your favorites"
+msgstr "Выберите файл для копирования избранного"
+
+#: __init__.py:122
+msgid "The file already exists. do you want to replace it?"
+msgstr "Файл уже существует. вы хотите заменить его?"
+
+#: __init__.py:122 __init__.py:130 __init__.py:174 __init__.py:541
+msgid "Warning"
+msgstr "Предупреждение"
+
+#: __init__.py:128
+msgid "Favorites have been saved correctly"
+msgstr "Избранное сохранено правильно"
+
+#: __init__.py:128
+msgid "Export result"
+msgstr "Результат экспорта"
+
+#: __init__.py:130
+#, python-format
+msgid ""
+"File can not be saved in the specified location\n"
+"\n"
+"%s\n"
+"%s"
+msgstr ""
+"Файл не может быть сохранен в указанном месте\n"
+"\n"
+"%s\n"
+"%s"
+
+#: __init__.py:143
+msgid "Select your favorites file"
+msgstr "Выберите свой файл избранного"
+
+#: __init__.py:155
+#, python-format
+msgid ""
+"Error loading %s\n"
+"\n"
+"%s\n"
+"%s"
+msgstr ""
+"Ошибка при загрузке %s\n"
+"\n"
+"%s\n"
+"%s"
+
+#: __init__.py:155
+msgid "Import failed"
+msgstr "Ошибка импорта"
+
+#: __init__.py:165
+msgid "There are No new favorites to add"
+msgstr "Нет новых избранных"
+
+#: __init__.py:165 __init__.py:168
+msgid "Import result"
+msgstr "Результат импорта"
+
+#: __init__.py:167
+#, python-format
+msgid "%d favorites added, %d total"
+msgstr "добавлено избранное %d, всего %d"
+
+#: __init__.py:174
+#, python-format
+msgid ""
+"Favorites have been loaded but can not be saved on file\n"
+"\n"
+"%s\n"
+"%s"
+msgstr ""
+"Избранное было загружено, но файл не удалось сохранить\n"
+"%s\n"
+"%s"
+
+#: __init__.py:204
+msgid "untagged"
+msgstr "непомеченн"
+
+#: __init__.py:243
+msgid "P&ython code"
+msgstr "Код P&ython"
+
+#: __init__.py:251
+msgid "&Filter"
+msgstr "&Фильтр"
+
+#: __init__.py:253
+msgid "All objects"
+msgstr "&Все объекты"
+
+#: __init__.py:253
+msgid "Interactive objects"
+msgstr "И&нтерактивные объекты"
+
+#: __init__.py:253
+msgid "Data objects"
+msgstr "Объекты данн&ых"
+
+#: __init__.py:253
+msgid "Static objects"
+msgstr "Стати&ческие объекты"
+
+#: __init__.py:253
+msgid "Container objects"
+msgstr "&Контейнерные объекты"
+
+#: __init__.py:256
+msgid "&Search:"
+msgstr "&Поиск:"
+
+#: __init__.py:260
+msgid "Hide untagged"
+msgstr "&Скрыть непомеченные"
+
+#: __init__.py:262
+msgid "Favo&rited objects"
+msgstr "Объекты &Избранного"
+
+#: __init__.py:265
+msgid "Ascendan&ts"
+msgstr "Пр&едки"
+
+#: __init__.py:268
+msgid "&Brothers"
+msgstr "&Братственные"
+
+#: __init__.py:271
+msgid "C&hildren"
+msgstr "&Дочерние"
+
+#: __init__.py:276
+msgid "&Clear filterss"
+msgstr "&Очистить фильтры"
+
+#: __init__.py:294
+msgid "Default &action"
+msgstr "Действие по &умолчанию"
+
+#: __init__.py:297
+msgid "&Left Click"
+msgstr "&Левый клик"
+
+#: __init__.py:300
+msgid "&Right Click"
+msgstr "Пр&авый клик"
+
+#: __init__.py:303
+msgid "&NVDA"
+msgstr "&NVDA"
+
+#: __init__.py:306
+msgid "Fa&v"
+msgstr "Изб&ранное"
+
+#: __init__.py:310
+msgid "Close"
+msgstr "&Закрыть"
+
+#: __init__.py:334
+msgid "Can not do default action for this object"
+msgstr "Вы не можете выполнить действие по умолчанию для этого объекта"
+
+#: __init__.py:358
+msgid "Unfavorited"
+msgstr "Удалено из избранного"
+
+#: __init__.py:362
+msgid "Favorited"
+msgstr "Отмечены как избранное"
+
+#: __init__.py:383 __init__.py:401
+msgid "items"
+msgstr "элементы"
+
+#: __init__.py:385
+msgid "[filter active]"
+msgstr "[filter active]"
+
+#: __init__.py:391
+msgid "ascendants of"
+msgstr "по возрастанию"
+
+#: __init__.py:394
+msgid "brothers of"
+msgstr "братственная"
+
+#: __init__.py:397
+msgid "children of"
+msgstr "дочерняя из"
+
+#: __init__.py:541
+#, python-format
+msgid ""
+"Can not save favorites file.\n"
+"\n"
+"%s\n"
+"%s"
+msgstr ""
+"Не удается сохранить файл избранного.\n"
+"\n"
+"%s\n"
+"%s"
